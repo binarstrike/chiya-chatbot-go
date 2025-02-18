@@ -14,11 +14,11 @@ func init() {
 var EchoCommand CommandStruct = CommandStruct{
 	Ac: &dcgo.ApplicationCommand{
 		Name:        "echo",
-		Description: "echoing what you type",
+		Description: "Echoes what you type",
 		Options: []*dcgo.ApplicationCommandOption{
 			{
 				Name:        "text",
-				Description: "text to be echoing",
+				Description: "The text to be echoed",
 				Type:        dcgo.ApplicationCommandOptionString,
 				Required:    true,
 			},
