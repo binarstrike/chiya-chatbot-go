@@ -1,0 +1,14 @@
+[database]
+host = "127.0.0.1"
+port = 5432
+user = "kokoa"
+password = "kokoa123"
+db_name = "appdb"
+
+[redis]
+host = "127.0.0.1"
+port = 6379
+
+[bot]
+token = "Bot Token"
+app_id = "9999982520799999"
